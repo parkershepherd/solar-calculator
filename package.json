@@ -1,0 +1,15 @@
+{
+  "name": "solar-calculator",
+  "version": "1.0.0",
+  "description": "Calculates cost effectiveness of a solar system",
+  "main": "cost.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "solar",
+    "calculator"
+  ],
+  "author": "Parker Shepherd",
+  "license": "ISC"
+}
