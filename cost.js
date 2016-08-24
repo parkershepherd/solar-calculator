@@ -200,7 +200,7 @@ let printResults = answers => {
 	// Set up variables
 	console.log('Calculated based on:'.cyan);
 	console.log(` → `.grey + `A ${currency(answers.price, 'white')}, ${answers.size} kW system with a ${answers.warranty} year warranty`);
-	console.log(` → `.grey + `Panels that produce ${answers.sunAmount*answers.size} kWh/yr and will be ${answers.longevity}% efficient at ${answers.warranty} years`);
+	console.log(` → `.grey + `Panels that produce ${answers.panelProduction*answers.size} kWh/yr and will be ${answers.longevity}% efficient at ${answers.warranty} years`);
 	console.log(` → `.grey + `Your monthly electric bill is ${currency(answers.averageBill, 'white')} at ${answers.currentRate} ¢/kWh, and you expect it to increase by ${answers.rateGrowth}% per year`);
 	if (answers.generatorCost > 0) {
 		console.log(` → `.grey + `You were planning on buying a backup generator for ${currency(answers.generatorCost, 'white')} if you didn't install solar`);
