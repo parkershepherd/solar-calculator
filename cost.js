@@ -232,7 +232,7 @@ let printResults = answers => {
 	// Yearly summaries
 	console.log(`Summary by year ${answers.duration}:`.cyan)
 	if (answers.generatorCost > 0) {
-		console.log(` → `.grey + `Price difference between solar and generator: ` + currency(stats.totals.relativePrice, 'white'));
+		console.log(` → `.grey + `Price difference between solar and generator: ` + currency(answers.price - answers.generatorCost, 'white'));
 	} else {
 		console.log(` → `.grey + `Price of solar system: ` + currency(answers.price, 'white'));
 	}
