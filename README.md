@@ -8,3 +8,5 @@ Calculates if/when a solar system pays itself off, accounting for things like:
 * Changes in electricity rates over time
 
 Usage: `node cost.js`
+
+![Screenshot](screenshots/solar-calculator.png)
